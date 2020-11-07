@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #a15050;
+}
+.todo-container {
+  width: 70%;
+  margin: 10% auto 1%;
+  text-align: center;
+}
+.todo-container h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.todo-container h1 span {
+  color: rgb(31, 89, 107);
+}
+.todo-container .add-task {
+  position: relative;
+}
+.todo-container .add-task input {
+  color: #fff;
+  padding: 10px;
+  background-color: rgb(31, 89, 107);
+  border: none;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  outline: 0;
+}
+.todo-container .add-task button {
+  position: absolute;
+  cursor: pointer;
+  outline: 0;
+  top: -6px;
+  border: none;
+  margin-top: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: rgb(31, 89, 107);
+  background-color: #fff;
+  font-size: 30px;
+}
+.task-content {
+  text-align: center;
+  margin-top: 30px;
+
+  color: rgb(25, 149, 187);
+  font-weight: bold;
+  width: 40%;
+  margin: auto;
+  padding: 10px 0;
+}
+.task-content ul {
+  list-style: none;
+}
+.task-content ul li {
+  margin-bottom: 6px;
+  background-color: #eee;
+  /* border-bottom: 2px solid rgb(25, 149, 187); */
+}
+.task-content ul li.hidden {
+  display: none;
+}
+.task-content ul li .delete {
+  color: #a71c1c;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 17rem;
+  padding-left: 5px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  height: 30px;
+  font-size: 15px;
+}
